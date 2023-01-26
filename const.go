@@ -22,4 +22,18 @@ func _main() {
 
 	fmt.Println(x)
 	fmt.Println(y)
+
+	const x = 10
+	var z float64 = x
+	var d byte = x
+	fmt.Println(y, z, d)
+
+	const typedX int = 10
+}
+
+func _main2() {
+	x := 10
+	x = 20
+	fmt.Println(x)
+	x = 30
 }
